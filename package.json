@@ -1,0 +1,24 @@
+{
+  "name": "ai-twitter-agent",
+  "version": "1.0.0",
+  "description": "An AI agent that reads Twitter for specific information and posts tweets about interesting findings.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "twitter-api-v2": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "ts-node": "^10.4.0",
+    "jest": "^27.0.6",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.7.10"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
